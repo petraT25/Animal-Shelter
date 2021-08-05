@@ -1,0 +1,174 @@
+@import url("bootstrap.min.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: rgba(28, 29, 27, 0.7);
+}
+
+/*SHOWCASE*/
+#find_a_pet {
+    background-image: 
+       linear-gradient(
+           rgb(255, 174, 0.15),
+           rgba(255, 153, 0, 0.25)
+       ),
+       url("/background-dog-cat.jpg");
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+}
+
+#find_pet_button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+
+/*CAROUSEL*/
+#sliding-imgs {
+    position: relative;
+    top: -100px;
+    cursor: grab;
+    width: 80%;
+    margin: auto;
+}
+
+#sliding-imgs:active {
+    cursor: grabbing;
+}
+
+
+/*ADOPTION FORM*/
+#adoption-form .container-fluid {
+    background-color: #e9edc9;
+    padding: 5rem 1rem
+}
+
+#button-form:hover {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fdc500!important;
+}
+
+
+/*ABOUT US*/
+#about-us {
+    margin-bottom: 5%;
+}
+
+#globally-left img{
+    border-radius: 25px;
+}
+
+#button-details:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fdc500!important;
+}
+
+
+/*PROCESS TO ADOPT*/
+#process-to-adopt {
+    background-color: #e9edc9;
+}
+
+.card {
+    border-radius: 5%;
+    cursor: default;
+}
+
+
+/*VOLUNTEER*/
+#become-volunteer {
+    display:block;
+    background-image:
+   linear-gradient(
+      rgb(255, 174, 0.15), 
+      rgba(255, 153, 0, 0.25)
+    ),
+    url("/background-dog-cat.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.volunteer-btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+
+/*FOOTER*/
+.useful-links:hover,
+.icon-square:hover {
+    color: rgb(255, 166, 0)!important;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.icon-square {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0);
+        order-radius: 25px;
+}
+    .nav-link {
+        color: rgba(255, 255, 255, 0.7)!important;
+    }
+
+    .nav-link .active {
+        color: rgba(255, 255, 255, 1)
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #sliding-imgs {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

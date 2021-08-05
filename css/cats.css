@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-warning:hover {
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: #fdc500!important;
+}
+
+.btn-danger:hover {
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: #fdc500!important;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: rgba(157, 79, 131, 0.605);
+}
+
+/*@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+    background-color: rgba(51, 61, 41, 0.9);
+    border-radius: 25px;
+}}*/
+
+
+/*MAIN-BANNER*/
+#cat-intro {
+    width: 100%;
+    height: 50vh;
+    background-image: 
+    linear-gradient(
+           rgba(245, 98, 201, 0.524),
+           rgba(255, 153, 0, 0.25)
+       ),
+       url("/background-cat.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.intro-title h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 750px) {
+    .intro-title h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
+
+
+.intro-title {
+    padding-top: 20vh;
+}
+
+
+/*CAT CARDS*/
+.img-div {
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.overlay-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(22, 20, 20, 0.612);
+}
+
+.img-div:hover .overlay-images {
+    height: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cat-description {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    padding-top: 30%;
+    text-align: center;
+}
+
+.cat-description h5 {
+    font-size: 1.8rem;
+}
+
+
+
+
+/*VOLUNTEER*/
+
+.volunteer-btn:hover {
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: #fff!important;
+}
+
+#become-volunteer {
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+          rgb(255, 174, 0.15), 
+          rgba(255, 153, 0, 0.25)
+        ),
+        url("https://images.unsplash.com/photo-1621266779755-149a04a072bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+        background-size: cover;
+        background-position: center;
+    }
+
+/*FOOTER*/
+.useful-links:hover {
+    color: rgb(255, 166, 0)!important;
+    transition: 300ms;
+}
