@@ -109,7 +109,7 @@ body {
       rgb(255, 174, 0.15), 
       rgba(255, 153, 0, 0.25)
     ),
-    url("../background-dog-cat.jpg");
+    url("../overlay-photo.jpg");
     background-size: cover;
     background-position: center;
 }
