@@ -17,7 +17,7 @@
            rgb(255, 174, 0.15),
            rgba(255, 153, 0, 0.25)
        ),
-       url("/volunteer-background.jpg");
+       url("../volunteer-background.jpg");
     width: 100vw;
     height: 60vh;
     background-position: center;
