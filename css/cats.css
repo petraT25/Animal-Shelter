@@ -33,7 +33,7 @@
            rgba(245, 98, 201, 0.524),
            rgba(255, 153, 0, 0.25)
        ),
-       url("/background-cat.jpg");
+       url("../background-cat.jpg");
     background-position: center;
     background-size: cover;
     
