@@ -17,7 +17,7 @@
            rgb(255, 174, 0.15),
            rgba(255, 153, 0, 0.25)
        ),
-       url("../volunteer-background.jpg");
+       url("../other-images/volunteer-background.jpg");
     width: 100vw;
     height: 60vh;
     background-position: center;
@@ -57,12 +57,14 @@
 
 .form {
     width: 50%;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 3rem;
 }
 
 textarea {
     width: 50%!important;
+    max-width: 800px;
     height: 40vh;
     margin: auto;
 }

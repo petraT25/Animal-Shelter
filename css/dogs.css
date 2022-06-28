@@ -27,7 +27,7 @@
            rgba(169, 98, 245, 0.524),
            rgba(255, 153, 0, 0.25)
        ),
-    url("../background-dog2.jpg");
+    url("../other-images/background-dog2.jpg");
     background-position: center;
     background-size: cover;
     object-fit: contain;
