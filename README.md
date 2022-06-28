@@ -1,2 +1,4 @@
 # Animal-Shelter
-Website for finding your pet
+Multi-page, mobile-first, responsive website
+
+Made with: HTML, CSS, Bootstrap, jQuery, Slick library, AOS library
